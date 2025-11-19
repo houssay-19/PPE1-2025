@@ -53,3 +53,31 @@ J’ai utilisé la commande curl pour interroger les sites web. L’option -w "%
 Le contenu complet de la page est ensuite téléchargé et analysé avec wc -w pour compter le nombre de mots. Toutes les informations sont affichées sur une seule ligne, séparées par des tabulations, ce qui facilite la lecture et le traitement automatique des résultats.
 Cet exercice m’a permis de mieux comprendre comment lire un fichier ligne par ligne en Bash, comment extraire des informations web avec curl, et comment structurer une sortie de données de manière claire et exploitable.
 
+## 10/11/2025
+Aujourd'hui, j'ai converti le tableau .tsv en .html et j'en profite pour revenir sur ce que j'ai fait avant la semaine des vacances et du problème que j'ai rencrontré au moment du push  
+
+- Pour aujourd'hui :
+J’ai exporté mon tableau `resultats.numbers` en `.tsv`.
+J’ai écrit un script Python pour convertir le TSV en HTML. Au départ j’avais fait le script sur textedit après plusieurs essais ça ne marchait pas donc finalement je l’ai fait sur VScodium et ça a fonctionné. 
+J’ai généré avec succès mon fichier `resultats.html`.
+J’ai supprimé du dépôt le fichier `.numbers` et j’ai poussé uniquement le `.html`.
+J’ai créé un tag propre pour marquer cette version : `miniprojet-2`.
+
+Tout fonctionne, et mon dépôt GitHub est enfin propre (juste quelques fichiers .DS_Store en trop que je n'ose pas supprimer, par peur que ça supprime tout encore une fois) 
+
+- Retours sur les difficultés de la semaine dernière
+J’ai eu beaucoup de difficultés aujourd’hui. Plusieurs fois, j’ai lancé mes scripts Python dans le mauvais dossier, ce qui provoquait des erreurs incompréhensibles. Je finissais par supprimer les fichiers et recommencer depuis le début, persuadée que le problème venait du script, alors que c’était juste le mauvais emplacement.
+Au moment de faire mes git push, l’icône bleue avec une flèche blanche est apparue et je ne comprenais pas pourquoi mes modifications ne partaient pas sur GitHub. J’ai passé beaucoup de temps à essayer de comprendre ce qui n’allait pas, avec une bonne dose de frustration.
+Le pire moment a été lorsque j’ai supprimé un dossier… mais pas seulement du dépôt GitHub : je l’ai aussi supprimé par erreur de mon mac. Tout avait disparu : le mini-projet, les scripts, le dossier Exercices. J’ai réussi à retrouver uniquement l’exercice 1. Le reste était perdu, et j’ai dû tout refaire depuis zéro. **Ce qui veut dire que mon dosssier Exercices apparaît comme si je l'avait fait au même moment que le mini projet1, mais par contre mes tags sont restés intactes ce qui veut dire qu'on voit quand même que j'ai pas commencé a faire mon github y'a 2 semaines**.
+Avec le recul, j’ai compris une chose essentielle : Git ne pardonne pas les suppressions mal contrôlées, et travailler dans le bon dossier change tout. Cette expérience m’a appris à être beaucoup plus prudente, à vérifier où je suis avant d’exécuter un script, et à faire des commits réguliers pour sauvegarder mon travail.
+
+- Ce que je fais maintenant
+Maintenant, je pense à faire régulièrement des commits et des pushs, même si ce n’est pas fini.
+Je fais une copie de sauvegarde sur une clé USB pour ne plus tout perdre et je fais aussi attention au format des fichiers avant de les ajouter dans un dépôt
+
+## 15/11/2025 
+Mini projet 3 
+Aujourd’hui, j’ai encore eu des soucis avec Git. Quand j’ai voulu faire un git push, Git refusait et je ne comprenais pas pourquoi mes modifications ne partaient pas sur GitHub. Le message disait que le dépôt distant contenait des changements que je n’avais pas en local, ce qui m’a vraiment bloquée.
+J’ai essayé de faire un git pull --rebase comme indiqué, mais Git m’a encore arrêtée parce que j’avais des modifications non enregistrées. J’étais un peu perdue : j’avais l’impression d’être coincée des deux côtés sans savoir quoi faire. Au début même le git push --force ne marchait pas, donc au final je suis allée sur mon GitHub et j'ai supprimé plusieurs fichiers DS_STORE et j'ai refais le git push et ça a marché!
+Mais je ne comprends pas vraiment pourquoi ce problème revient à chaque, de plus la dernière fois que je vous avait présenter le problème, vous (M.Magistry) m'aviez dit que le problème ne devait plus réapparaître. 
+Pour le reste du miniprojet 3 j'ai pas eu beaucoup de difficulté mais par manque de temps j'ai pas une belle mise en page de mon site internet. 
