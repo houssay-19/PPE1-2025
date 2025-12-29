@@ -82,10 +82,10 @@ J’ai essayé de faire un git pull --rebase comme indiqué, mais Git m’a enco
 Mais je ne comprends pas vraiment pourquoi ce problème revient à chaque, de plus la dernière fois que je vous avait présenter le problème, vous (M.Magistry) m'aviez dit que le problème ne devait plus réapparaître. 
 Pour le reste du miniprojet 3 j'ai pas eu beaucoup de difficulté mais par manque de temps j'ai pas une belle mise en page de mon site internet. 
 
-## projet de groupe PPE
+# projet de groupe PPE
 Pendant les 2 séances dernières séance de PPE on a pu bien nous organiser et se mettre d'accord sur la manière dont nous allions travailler. Ça a été assez fluide en vérité. 
 Pour les premiers jours sur les projet je n'ai rein d'intéressant à noter. 
-# 28-29/12/2025
+## 28-29/12/2025
 Aujourd’hui, j’ai travaillé sur la création des fichiers pals à partir des dumps et des contextes. Tout fonctionnait globalement bien, mais j’ai rencontré un problème technique avec la commande tr qui affichait des messages d’erreur du type Illegal byte sequence. Comme on travaille en groupe et que je suis la seule à être sur Mac, j’ai dû adapter le script pour qu’il soit compatible avec macOS. J’ai compris que c’était un problème d’encodage et qu’il fallait avoir le bon réflexe de forcer la locale pour éviter ce genre d’erreurs.
 Même si le script produisait quand même un résultat, c'était pas "propre", donc j’ai corrigé le script pour qu’il fonctionne correctement sans warnings. Cette fois-ci, j’ai vraiment l’impression d’avoir retenu la leçon par rapport au mini-projet précédent : je vais plus vite, je comprends mieux les erreurs, et je sais comment les corriger sans paniquer.
 Au début du projet, je n’avais pas grand-chose à écrire dans mon journal de bord parce que tout se passait bien et sans difficulté particulière. Mais maintenant, je me rends compte que ces petits problèmes techniques sont intéressants à analyser, surtout en travail de groupe et avec des environnements différents.
